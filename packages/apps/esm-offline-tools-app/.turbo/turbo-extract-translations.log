@@ -1,0 +1,38 @@
+
+[36m  i18next Parser[39m
+[36m  --------------[39m
+[36m  Input:  [39msrc/**/*.component.tsx, src/**/*.extension.tsx, src/**/*.modal.tsx
+[36m  Output: [39m$NAMESPACE/$LOCALE.json
+
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/components/confirmation.modal.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/components/headered-quick-info.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/components/overview-card.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/components/shared-page-layout.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/home/cards-container.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/home/home.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/nav/desktop-side-nav.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/nav/offline-tools-nav-link.component.tsx
+[33m  [warning] [39mKey is not a string literal: title
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/nav/offline-tools-nav-menu.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/no-actions-empty-state.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions-mode-button.extension.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions-overview-card.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions-page.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions-patient-chart-widget.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions-table.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-actions/offline-actions.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/empty-data-illustration.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/empty-state.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/last-updated-table-cell.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/offline-patient-sync-details.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/offline-patient-table.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/offline-patients.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/overview-offline-patient-table.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/patient-name-table-cell.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-patients/patients-overview-card.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-tools-app-menu-link.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/offline-tools-page/offline-tools-page.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/src/root.component.tsx
+[32m  [write]   [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-offline-tools-app/translations/en.json
+
+[36m  Stats:  [39m28 files were parsed

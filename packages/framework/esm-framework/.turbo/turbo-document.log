@@ -1,0 +1,34 @@
+Generating new API docs
+[96mInfo: [0mLoaded plugin /home/santosh/bhadra/openmrs-esm-core/node_modules/typedoc-plugin-file-tags
+[96mInfo: [0mLoaded plugin /home/santosh/bhadra/openmrs-esm-core/node_modules/typedoc-plugin-markdown
+[96mInfo: [0mLoaded plugin /home/santosh/bhadra/openmrs-esm-core/node_modules/typedoc-plugin-no-inherit
+[91mError: [0m[96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m427[0m:[93m40[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.
+
+[7m427[0m     const defaultValue = useMemo(() => dateToInternationalizedDate(rawDefaultValue, calendar), [rawDefaultValue]);
+[7m   [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m130[0m:[93m3[0m
+    [7m130[0m   allowNull: true,
+    [7m   [0m [96m  ~~~~~~~~~~~~~~~[0m
+    An argument for 'allowNull' was not provided.
+
+[91mError: [0m[96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m429[0m:[93m35[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.
+
+[7m429[0m     const maxDate = useMemo(() => dateToInternationalizedDate(rawMaxDate, calendar), [rawMaxDate]);
+[7m   [0m [91m                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m130[0m:[93m3[0m
+    [7m130[0m   allowNull: true,
+    [7m   [0m [96m  ~~~~~~~~~~~~~~~[0m
+    An argument for 'allowNull' was not provided.
+
+[91mError: [0m[96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m430[0m:[93m35[0m - [91merror[0m[90m TS2554: [0mExpected 3 arguments, but got 2.
+
+[7m430[0m     const minDate = useMemo(() => dateToInternationalizedDate(rawMinDate, calendar), [rawMinDate]);
+[7m   [0m [91m                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96m../esm-styleguide/src/datepicker/index.tsx[0m:[93m130[0m:[93m3[0m
+    [7m130[0m   allowNull: true,
+    [7m   [0m [96m  ~~~~~~~~~~~~~~~[0m
+    An argument for 'allowNull' was not provided.
+

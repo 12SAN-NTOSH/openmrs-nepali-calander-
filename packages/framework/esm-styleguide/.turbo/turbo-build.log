@@ -1,0 +1,56 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by info 2.4 MiB [1m[32m[immutable][39m[22m
+  assets by path [1m[32m*.woff[39m[22m 1.35 MiB
+    asset [1m[32md96e5a614e96c351c453.woff[39m[22m 24.5 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff/IBMPlexSerif-SemiBoldItalic-Cyrillic.woff] (auxiliary name: main)
+    asset [1m[32mb691d8c0c5110ea3659e.woff[39m[22m 24 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff/IBMPlexSerif-SemiBoldItalic-Latin1.woff] (auxiliary name: main)
+    asset [1m[32m452cc78a1baf50168631.woff[39m[22m 23.9 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff/IBMPlexSerif-Italic-Cyrillic.woff] (auxiliary name: main)
+    + 87 assets
+  assets by path [1m[32m*.woff2[39m[22m 1.04 MiB
+    asset [1m[32m2861a6629748147a32ea.woff2[39m[22m 19.6 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff2/IBMPlexSerif-SemiBoldItalic-Cyrillic.woff2] (auxiliary name: main)
+    asset [1m[32m6305238484fd3cc045b0.woff2[39m[22m 19.3 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff2/IBMPlexSerif-SemiBoldItalic-Latin1.woff2] (auxiliary name: main)
+    asset [1m[32m44c432e4a678791737ca.woff2[39m[22m 19.2 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff2/IBMPlexSerif-Italic-Cyrillic.woff2] (auxiliary name: main)
+    asset [1m[32me0d279d30dd9df7831ce.woff2[39m[22m 19 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../../node_modules/@ibm/plex/IBM-Plex-Serif/fonts/split/woff2/IBMPlexSerif-LightItalic-Cyrillic.woff2] (auxiliary name: main)
+    + 86 assets
+assets by status [1m[33m1.23 MiB[39m[22m [1m[33m[big][39m[22m
+  asset [1m[33mopenmrs-esm-styleguide.css[39m[22m [1m[33m816 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (name: main) 1 related asset
+  asset [1m[33mopenmrs-esm-styleguide.js[39m[22m [1m[33m440 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (name: main) 2 related assets
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.23 MiB (4.49 MiB) = [1m[32mopenmrs-esm-styleguide.css[39m[22m 816 KiB [1m[32mopenmrs-esm-styleguide.js[39m[22m 440 KiB 182 auxiliary assets
+orphan modules 13.2 MiB (javascript) 2.4 MiB (asset) 14.7 KiB (runtime) [1m[33m[orphan][39m[22m 3372 modules
+runtime modules 1.13 KiB 5 modules
+built modules 1.61 MiB (javascript) 950 KiB (css/mini-extract) [1m[33m[built][39m[22m
+  cacheable modules 1.61 MiB (javascript) 950 KiB (css/mini-extract)
+    javascript modules 1.61 MiB 19 modules
+    css modules 950 KiB 17 modules
+  modules by path [1mexternal "@openmrs/[39m[22m 252 bytes
+    [1mexternal "@openmrs/esm-react-utils"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-state"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 4 modules
+  [1mexternal "react"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "rxjs"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "dayjs"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "react-dom"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "i18next"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  openmrs-esm-styleguide.css (816 KiB)
+  openmrs-esm-styleguide.js (440 KiB)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mentrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.23 MiB)
+      openmrs-esm-styleguide.css
+      openmrs-esm-styleguide.js
+[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mwebpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m3 warnings[39m[22m in 64974 ms

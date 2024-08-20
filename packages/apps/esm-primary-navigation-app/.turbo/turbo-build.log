@@ -1,0 +1,37 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by path [1m[32m*.js[39m[22m 2.2 MiB
+  assets by chunk 783 KiB (id hint: vendors)
+    asset [1m[33m513.js[39m[22m [1m[33m517 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32m788.js[39m[22m 130 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32m482.js[39m[22m 56.4 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+    asset [1m[32m63.js[39m[22m 49.7 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32m657.js[39m[22m 20.1 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+    asset [1m[32m933.js[39m[22m 9.74 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 2 related assets
+  + 16 assets
+assets by path [1m[32m*.json[39m[22m 12.6 KiB
+  asset [1m[32mopenmrs-esm-primary-navigation-app.js.buildmanifest.json[39m[22m 11.7 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mroutes.json[39m[22m 855 bytes [1m[32m[emitted][39m[22m [from: src/routes.json] [1m[32m[copied][39m[22m
+orphan modules 3.71 MiB [1m[33m[orphan][39m[22m 561 modules
+runtime modules 40.8 KiB 28 modules
+built modules 7.07 MiB (javascript) 336 bytes (consume-shared) 294 bytes (share-init) [1m[33m[built][39m[22m
+  javascript modules 7.07 MiB 83 modules
+  optional modules 1.53 KiB [1m[33m[optional][39m[22m
+    [1m./translations/am.json[39m[22m 184 bytes [1m[33m[optional][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 8 modules
+  consume-shared-module modules 336 bytes
+    modules by path [1mconsume shared module (default) @openmrs/[39m[22m 84 bytes 2 modules
+    + 6 modules
+  provide-module modules 294 bytes
+    [1mprovide shared module (default) @carbon/react@1.37.0 = ../../../node_modules/@ca...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) @openmrs/esm-framework/src/internal@5.7.2 = ../....(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 5 modules
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  889.js (1.04 MiB)
+  513.js (517 KiB)[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m1 warning[39m[22m in 271405 ms

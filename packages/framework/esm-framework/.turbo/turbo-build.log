@@ -1,0 +1,32 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by chunk 243 KiB (id hint: vendors)
+  asset [1m[32m788.openmrs-esm-framework.js[39m[22m 130 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 2 related assets
+  asset [1m[32m278.openmrs-esm-framework.js[39m[22m 53.9 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m645.openmrs-esm-framework.js[39m[22m 37.2 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m746.openmrs-esm-framework.js[39m[22m 17.6 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m126.openmrs-esm-framework.js[39m[22m 4.41 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[33mopenmrs-esm-framework.js[39m[22m [1m[33m1.78 MiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (name: main) 2 related assets
+asset [1m[32m619.openmrs-esm-framework.js[39m[22m 18.8 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m735.openmrs-esm-framework.js[39m[22m 6.54 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 2 related assets
+asset [1m[32m530.openmrs-esm-framework.js[39m[22m 6.4 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+orphan modules 8.55 MiB [1m[33m[orphan][39m[22m 2784 modules
+runtime modules 20 KiB 14 modules
+built modules 5.95 MiB (javascript) 336 bytes (share-init) 336 bytes (consume-shared) [1m[33m[built][39m[22m 326 modules
+
+[1m[33mWARNING[39m[22m in [1mshared module swr -> /home/santosh/bhadra/openmrs-esm-core/node_modules/swr/core/dist/index.mjs[39m[22m
+[1mNo version specified and unable to automatically determine one. No version in description file (usually package.json). Add version to description file /home/santosh/bhadra/openmrs-esm-core/node_modules/swr/core/package.json, or manually specify version in shared config.[39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  openmrs-esm-framework.js (1.78 MiB)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mentrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.78 MiB)
+      openmrs-esm-framework.js
+[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m3 warnings[39m[22m in 68179 ms

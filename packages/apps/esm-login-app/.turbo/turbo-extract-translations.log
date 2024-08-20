@@ -1,0 +1,29 @@
+
+[36m  i18next Parser[39m
+[36m  --------------[39m
+[36m  Input:  [39msrc/**/*.component.tsx, src/**/*.extension.tsx, src/**/*.modal.tsx, src/**/*.resource.ts
+[36m  Output: [39m$NAMESPACE/$LOCALE.json
+
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/change-location-link/change-location-link.extension.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/change-password/change-password-link.extension.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/change-password/change-password.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/change-password/change-password.modal.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/change-password/change-password.resource.ts
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/loading/loading.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/location-picker/location-picker-view.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/location-picker/location-picker.resource.ts
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/login.resource.ts
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/login/login.component.tsx
+[33m  [warning] [39mKey is not a string literal: errorMessage
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/logo.component.tsx
+[33m  [warning] [39mKey is not a string literal
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/logout/logout.extension.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/redirect-logout/logout.resource.ts
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/redirect-logout/redirect-logout.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/src/root.component.tsx
+[33m  [warning] [39mFound same keys with different values: change
+[33m  [warning] [39mFound same keys with different values: changePassword
+[33m  [warning] [39mFound same keys with different values: change
+[32m  [write]   [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-login-app/translations/en.json
+
+[36m  Stats:  [39m15 files were parsed

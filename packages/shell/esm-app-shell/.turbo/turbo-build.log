@@ -1,0 +1,103 @@
+
+> @openmrs/esm-app-shell@5.7.2 build:production
+> cross-env OMRS_ESM_IMPORTMAP_URL="https://dev3.openmrs.org/openmrs/spa/importmap.json" OMRS_OFFLINE="enable" OMRS_CLEAN_BEFORE_BUILD="true" NODE_ENV="production" webpack --mode production
+
+(node:5850) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+	Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+	Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+assets by info 5.42 MiB [1m[32m[immutable][39m[22m
+  assets by path [1m[32m*.woff[39m[22m 1.35 MiB 90 assets
+  assets by path [1m[32m*.woff2[39m[22m 1.04 MiB 90 assets
+  assets by path [1m[32m*.js[39m[22m 2.17 MiB 37 assets
+  assets by path [1m[32m*.css[39m[22m 884 KiB 2 assets
+assets by path [1m[32m*.png[39m[22m 64.8 KiB
+  asset [1m[32mlogo-512.png[39m[22m 15.5 KiB [1m[32m[emitted][39m[22m [from: src/assets/logo-512.png] [1m[32m[copied][39m[22m
+  asset [1m[32micon_512x512.7163efb26df832de513bc58d925ea22e.png[39m[22m 13.9 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32micon_384x384.c8923df6b6bd08eba5c79b78d7fcecc0.png[39m[22m 12.7 KiB [1m[32m[emitted][39m[22m
+  + 5 assets
+asset [1m[32mservice-worker.js[39m[22m 160 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mindex.html[39m[22m 3.09 KiB [1m[32m[emitted][39m[22m
+asset [1m[32mlogo.svg[39m[22m 1.33 KiB [1m[32m[emitted][39m[22m [from: src/assets/logo.svg] [1m[32m[copied][39m[22m
+asset [1m[32mmanifest.266df36f2271d27ae9bcaa196a2976ae.json[39m[22m 1.29 KiB [1m[32m[emitted][39m[22m
+asset [1m[32mfavicon.ico[39m[22m 1.12 KiB [1m[32m[emitted][39m[22m [from: src/assets/favicon.ico] [1m[32m[copied][39m[22m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 879 KiB (197 KiB) = [1m[32mopenmrs.ba97f0856436646b.css[39m[22m 815 KiB [1m[32mopenmrs.32385badcdee59b9.js[39m[22m 64.4 KiB 2 auxiliary assets
+orphan modules 11.4 MiB (javascript) 2.4 MiB (asset) 43.7 KiB (runtime) [1m[33m[orphan][39m[22m 3001 modules
+runtime modules 26.8 KiB 15 modules
+built modules 7.4 MiB (javascript) 890 KiB (css/mini-extract) 546 bytes (share-init) 546 bytes (consume-shared) [1m[33m[built][39m[22m
+  modules by path [1m../../../node_modules/[39m[22m 6.38 MiB 476 modules
+  modules by path [1m../../framework/[39m[22m 922 KiB (javascript) 890 KiB (css/mini-extract) 181 modules
+  provide-module modules 546 bytes 13 modules
+  consume-shared-module modules 546 bytes
+    modules by path [1mconsume shared module (default) swr/[39m[22m 126 bytes 3 modules
+    modules by path [1mconsume shared module (default) @openmrs/[39m[22m 84 bytes 2 modules
+    + 8 modules
+  modules by path [1m./src/[39m[22m 131 KiB
+    [1m./src/index.ts + 1 modules[39m[22m 84.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/run.ts + 3 modules[39m[22m 39.2 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/ui/breadcrumbs.tsx[39m[22m 7.37 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1mLOG from InjectManifest[39m[22m
+<i> [1m[32mThe service worker at service-worker.js will precache[39m[22m
+<i> [1m[32m        231 URLs, totaling 5.71 MB.[39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  819c880b9dc3377b.js (537 KiB)
+  50779a986f206730.js (761 KiB)
+  f6038c7c8c2ff6e3.js (255 KiB)
+  openmrs.ba97f0856436646b.css (815 KiB)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mentrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (879 KiB)
+      openmrs.ba97f0856436646b.css
+      openmrs.32385badcdee59b9.js
+[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m2 warnings[39m[22m in 289227 ms
+
+> @openmrs/esm-app-shell@5.7.2 build:development
+> cross-env OMRS_OFFLINE="enable" OMRS_CLEAN_BEFORE_BUILD="true" NODE_ENV="development" webpack --mode development
+
+(node:6331) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+	Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+	Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+assets by info 31.6 MiB [1m[32m[immutable][39m[22m 215 assets
+assets by path [1m[32mesm-login-app/[39m[22m 5.03 MiB 60 assets
+assets by path [1m[32mesm-implementer-tools-app/[39m[22m 6.38 MiB 56 assets
+assets by path [1m[32mesm-offline-tools-app/[39m[22m 5.77 MiB 46 assets
+assets by path [1m[32mesm-primary-navigation-app/[39m[22m 4.57 MiB 44 assets
+assets by path [1m[32mesm-help-menu-app/[39m[22m 4.11 MiB 31 assets
+assets by path [1m[32mesm-devtools-app/[39m[22m 4.1 MiB
+  assets by path [1m[32mesm-devtools-app/*.map[39m[22m 2.26 MiB 11 assets
+  assets by path [1m[32mesm-devtools-app/*.js[39m[22m 1.84 MiB 11 assets
+  assets by path [1m[32mesm-devtools-app/*.txt[39m[22m 2.24 KiB 5 assets
+  assets by path [1m[32mesm-devtools-app/*.json[39m[22m 7.23 KiB 2 assets
+assets by path [1m[32m*.png[39m[22m 64.8 KiB
+  asset [1m[32mlogo-512.png[39m[22m 15.5 KiB [1m[32m[emitted][39m[22m [from: src/assets/logo-512.png] [1m[32m[copied][39m[22m
+  + 7 assets
++ 6 assets
+orphan modules 3.71 MiB [1m[33m[orphan][39m[22m 1600 modules
+runtime modules 35.9 KiB 15 modules
+modules by path [1m../../[39m[22m 12 MiB (javascript) 2.4 MiB (asset)
+  modules by path [1m../../../node_modules/[39m[22m 7.9 MiB 1417 modules
+  modules by path [1m../../framework/[39m[22m 4.05 MiB (javascript) 2.4 MiB (asset) 536 modules
+provide-module modules 546 bytes 13 modules
+consume-shared-module modules 546 bytes
+  modules by path [1mconsume shared module (default) swr/[39m[22m 126 bytes 3 modules
+  modules by path [1mconsume shared module (default) @openmrs/[39m[22m 84 bytes 2 modules
+  + 8 modules
+modules by path [1m./src/[39m[22m 53.2 KiB
+  modules by path [1m./src/*.ts[39m[22m 45.4 KiB 4 modules
+  modules by path [1m./src/ui/[39m[22m 7.88 KiB 2 modules
+
+[1mLOG from InjectManifest[39m[22m
+<i> [1m[32mThe service worker at service-worker.js will precache[39m[22m
+<i> [1m[32m        402 URLs, totaling 56.6 MB.[39m[22m
+
+webpack 5.88.0 compiled [1m[32msuccessfully[39m[22m in 27106 ms

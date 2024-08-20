@@ -1,0 +1,27 @@
+
+[36m  i18next Parser[39m
+[36m  --------------[39m
+[36m  Input:  [39msrc/**/*.component.tsx, src/**/*.extension.tsx, src/**/*.modal.tsx
+[36m  Output: [39m$NAMESPACE/$LOCALE.json
+
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/backend-dependencies/backend-dependencies.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/config-edit-button/config-edit-button.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/configuration.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/config-subtree.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/config-tree-for-module.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/config-tree.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/description.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/editable-value.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/layout/subtree.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/interactive-editor/layout/tree-container.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/configuration/json-editor/json-editor.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/feature-flags/feature-flags.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/frontend-modules/frontend-modules.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/global-implementer-tools.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/implementer-tools.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/popup/popup.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/src/ui-editor/extension-overlay.component.tsx
+[33m  [warning] [39mFound same keys with different values: installedVersion
+[32m  [write]   [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-implementer-tools-app/translations/en.json
+
+[36m  Stats:  [39m17 files were parsed

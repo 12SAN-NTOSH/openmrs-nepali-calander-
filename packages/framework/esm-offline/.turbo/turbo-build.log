@@ -1,0 +1,11 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+asset [1m[32mopenmrs-esm-offline.js[39m[22m 107 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main) 1 related asset
+orphan modules 180 KiB [1m[33m[orphan][39m[22m 27 modules
+runtime modules 670 bytes 3 modules
+built modules 165 KiB [1m[33m[built][39m[22m
+  [1m./src/index.ts + 15 modules[39m[22m 164 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "@openmrs/esm-api"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "@openmrs/esm-state"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.88.0 compiled [1m[32msuccessfully[39m[22m in 12948 ms

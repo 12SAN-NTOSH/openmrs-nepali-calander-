@@ -1,0 +1,16 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+asset [1m[32mopenmrs-esm-api.js[39m[22m 53.4 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main) 2 related assets
+orphan modules 440 KiB [1m[33m[orphan][39m[22m 240 modules
+runtime modules 670 bytes 3 modules
+built modules 140 KiB [1m[33m[built][39m[22m
+  modules by path [1mexternal "@openmrs/[39m[22m 168 bytes
+    [1mexternal "@openmrs/esm-config"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-navigation"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-error-handling"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-offline"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  cacheable modules 139 KiB
+    [1m./src/index.ts + 51 modules[39m[22m 135 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../esm-state/dist/openmrs-esm-state.js[39m[22m 4.66 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.88.0 compiled [1m[32msuccessfully[39m[22m in 8149 ms

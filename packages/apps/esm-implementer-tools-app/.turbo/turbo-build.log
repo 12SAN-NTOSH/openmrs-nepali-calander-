@@ -1,0 +1,37 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by path [1m[32m*.js[39m[22m 3.44 MiB
+  assets by chunk 1.18 MiB (id hint: vendors)
+    assets by status [1m[33m929 KiB[39m[22m [1m[33m[big][39m[22m
+      asset [1m[33m336.js[39m[22m [1m[33m493 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (id hint: vendors) 2 related assets
+      asset [1m[33m667.js[39m[22m [1m[33m436 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (id hint: vendors) 2 related assets
+    + 8 assets
+  + 18 assets
+assets by path [1m[32m*.json[39m[22m 15.6 KiB
+  asset [1m[32mopenmrs-esm-implementer-tools-app.js.buildmanifest.json[39m[22m 15.3 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mroutes.json[39m[22m 301 bytes [1m[32m[emitted][39m[22m [from: src/routes.json] [1m[32m[copied][39m[22m
+orphan modules 3.88 MiB [1m[33m[orphan][39m[22m 541 modules
+runtime modules 40.6 KiB 30 modules
+built modules 8.84 MiB (javascript) 294 bytes (consume-shared) 252 bytes (share-init) [1m[33m[built][39m[22m
+  modules by path [1m../../[39m[22m 7.62 MiB 152 modules
+  modules by path [1m./[39m[22m 1.22 MiB
+    javascript modules 1.21 MiB 23 modules
+    optional modules 8.15 KiB [1m[33m[optional][39m[22m 9 modules
+  consume-shared-module modules 294 bytes
+    modules by path [1mconsume shared module (default) @openmrs/[39m[22m 84 bytes 2 modules
+    + 5 modules
+  provide-module modules 252 bytes
+    [1mprovide shared module (default) @carbon/react@1.37.0 = ../../../node_modules/@ca...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 5 modules
+  [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  775.js (872 KiB)
+  889.js (1.04 MiB)
+  336.js (493 KiB)
+  667.js (436 KiB)[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m1 warning[39m[22m in 290940 ms

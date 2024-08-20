@@ -1,0 +1,10 @@
+
+[36m  i18next Parser[39m
+[36m  --------------[39m
+[36m  Input:  [39msrc/translations.ts
+[36m  Output: [39m$NAMESPACE/$LOCALE.json
+
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/framework/esm-translations/src/translations.ts
+[32m  [write]   [39m/home/santosh/bhadra/openmrs-esm-core/packages/framework/esm-translations/translations/en.json
+
+[36m  Stats:  [39m1 files were parsed

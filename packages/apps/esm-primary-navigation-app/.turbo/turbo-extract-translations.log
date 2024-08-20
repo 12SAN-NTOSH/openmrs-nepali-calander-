@@ -1,0 +1,22 @@
+
+[36m  i18next Parser[39m
+[36m  --------------[39m
+[36m  Input:  [39msrc/**/*.component.tsx, src/**/*.extension.tsx, src/**/*.modal.tsx
+[36m  Output: [39m$NAMESPACE/$LOCALE.json
+
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/change-language/change-language-link.extension.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/change-language/change-language.modal.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/generic-link/generic-link.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/logo/logo.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/navbar-header-panels/app-menu-panel.component.tsx
+[33m  [warning] [39mKey is not a string literal
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/navbar-header-panels/notifications-menu-panel.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/navbar-header-panels/side-menu-panel.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/navbar-header-panels/user-menu-panel.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/navbar/navbar.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/offline-banner/offline-banner.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/components/user-panel-switcher-item/user-panel-switcher.component.tsx
+[32m  [read]    [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/src/root.component.tsx
+[32m  [write]   [39m/home/santosh/bhadra/openmrs-esm-core/packages/apps/esm-primary-navigation-app/translations/en.json
+
+[36m  Stats:  [39m12 files were parsed

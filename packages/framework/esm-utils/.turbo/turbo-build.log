@@ -1,0 +1,15 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+asset [1m[32mopenmrs-esm-utils.js[39m[22m 151 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main) 1 related asset
+orphan modules 366 KiB [1m[33m[orphan][39m[22m 84 modules
+runtime modules 937 bytes 4 modules
+built modules 506 KiB [1m[33m[built][39m[22m
+  modules by path [1m./[39m[22m 208 KiB 44 modules
+  modules by path [1m../../../node_modules/[39m[22m 298 KiB
+    modules by path [1m../../../node_modules/@formatjs/intl-durationformat/[39m[22m 170 KiB 13 modules
+    modules by path [1m../../../node_modules/dayjs/plugin/*.js[39m[22m 2.56 KiB 2 modules
+    [1m../../../node_modules/tslib/tslib.es6.mjs[39m[22m 15.9 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../../../node_modules/@formatjs/intl-localematcher/lib/index.js + 10 modules[39m[22m 110 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "dayjs"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.88.0 compiled [1m[32msuccessfully[39m[22m in 16342 ms

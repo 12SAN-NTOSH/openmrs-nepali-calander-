@@ -1,0 +1,16 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+asset [1m[32mopenmrs-esm-utils.js[39m[22m 14.8 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main) 1 related asset
+orphan modules 36.5 KiB [1m[33m[orphan][39m[22m 7 modules
+runtime modules 670 bytes 3 modules
+built modules 36.8 KiB [1m[33m[built][39m[22m
+  modules by path [1mexternal "@openmrs/[39m[22m 210 bytes
+    [1mexternal "@openmrs/esm-utils"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-dynamic-loading"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-config"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-feature-flags"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mexternal "@openmrs/esm-extensions"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./src/index.ts + 7 modules[39m[22m 36.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mexternal "single-spa"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.88.0 compiled [1m[32msuccessfully[39m[22m in 12320 ms

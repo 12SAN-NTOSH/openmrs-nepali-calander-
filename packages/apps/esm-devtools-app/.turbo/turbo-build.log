@@ -1,0 +1,36 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+assets by path [1m[32m*.js[39m[22m 1.84 MiB
+  assets by chunk 749 KiB (id hint: vendors)
+    asset [1m[33m593.js[39m[22m [1m[33m524 KiB[39m[22m [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m [1m[33m[big][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32m788.js[39m[22m 130 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32m642.js[39m[22m 74.3 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+    asset [1m[32m657.js[39m[22m 20.1 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  + 7 assets
+assets by path [1m[32m*.json[39m[22m 7.23 KiB
+  asset [1m[32mopenmrs-esm-devtools-app.js.buildmanifest.json[39m[22m 7 KiB [1m[32m[emitted][39m[22m
+  asset [1m[32mroutes.json[39m[22m 236 bytes [1m[32m[emitted][39m[22m [from: src/routes.json] [1m[32m[copied][39m[22m
+orphan modules 3.8 MiB [1m[33m[orphan][39m[22m 547 modules
+runtime modules 39.4 KiB 28 modules
+built modules 6.74 MiB (javascript) 252 bytes (consume-shared) 210 bytes (share-init) [1m[33m[built][39m[22m
+  modules by path [1m../../[39m[22m 6.67 MiB
+    modules by path [1m../../../node_modules/[39m[22m 3.41 MiB 49 modules
+    modules by path [1m../../framework/[39m[22m 3.26 MiB 16 modules
+  modules by path [1m./src/[39m[22m 70.7 KiB 8 modules
+  consume-shared-module modules 252 bytes
+    modules by path [1mconsume shared module (default) @openmrs/[39m[22m 84 bytes 2 modules
+    + 4 modules
+  provide-module modules 210 bytes
+    [1mprovide shared module (default) @carbon/react@1.37.0 = ../../../node_modules/@ca...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) @openmrs/esm-framework@5.7.2 = ../../framework/e...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 3 modules
+  [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  889.js (1.04 MiB)
+  593.js (524 KiB)[39m[22m
+
+webpack 5.88.0 compiled with [1m[33m1 warning[39m[22m in 253589 ms
